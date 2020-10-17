@@ -1,2 +1,2 @@
 # my_resume
-resume
+Description of resume repository
