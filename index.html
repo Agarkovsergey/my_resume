@@ -1,11 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My resume</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- main container -->
+		<div id="wrapper">
+			<aside class="sidebar">
+				<img src="./img/mainImg.jpg" alt="My photo" class="my_photo" />
+
+				<!-- Contacs container -->
+				<div class="contacs-container">
+					<h3 class="contacts_title">Contacs</h3>
+					<div>
+						<span class="contats_link-type">C:</span>
+						<a href="tel:+380953536419">+38 095 353 64 19</a>
+					</div>
+					<div>
+						<span class="contats_link-type">E:</span>
+						<a href="mailto:sergeyagarkov91@mail.ru">sergeyagarkov91@mail.ru</a>
+					</div>
+				</div>
+
+				<!-- Tech skils container -->
+				<div class="tech_skills_container">
+					<h3 class="tech_skills_title">Tech skills</h3>
+					<ul>
+						<li class="tech_skills_item"><span>HTML5</span></li>
+						<li class="tech_skills_item"><span>CSS3</span></li>
+						<li class="tech_skills_item"><span>LESS</span></li>
+						<li class="tech_skills_item"><span>GIT</span></li>
+						<li class="tech_skills_item"><span>Grunt</span></li>
+						<li class="tech_skills_item"><span>JavaScript</span></li>
+						<li class="tech_skills_item"><span>Node.js</span></li>
+					</ul>
+				</div>
+
+				<!-- Soft Skills container -->
+				<div class="soft_Skills_container">
+					<h3 class="soft_skills_title">Soft Skills</h3>
+					<ul>
+						<li class="soft_skills_item"><span>Scrum</span></li>
+						<li class="soft_skills_item"><span>Agile</span></li>
+						<li class="soft_skills_item"><span>GTD</span></li>
+						<li class="soft_skills_item"><span>Teamwork</span></li>
+					</ul>
+				</div>
+			</aside>
+
+			<!-- About me container-->
+			<div class="main_info">
+				<!-- About me main info-->
+				<div class="my_info">
+					<h3 class="profession">Front-End Developer</h3>
+					<h1 class="my_name">Agarkov Sergey</h1>
+					<p class="text_content">
+						Date of birth : 19.03.1991
+						<br />
+						Location : Kiev.Obolon
+					</p>
+				</div>
+
+				<!-- projects container-->
+				<div class="projects_container">
+					<h3 class="about_me_title">Projects</h3>
+					<ol>
+						<li class="projects_list_item">
+							<a class="pojects_link" href="https://lovecamp.goit.ua/">https://lovecamp.goit.ua/</a>
+							<span class="dotes">................</span>
+							<span>
+								<strong>[</strong>
+								<span class="tech_name">HTML5, CSS3</span>
+								<strong>]</strong>
+							</span>
+						</li>
+						<li class="projects_list_item">
+							<a class="pojects_link" href="https://cryptohub.goit.u a/">https://cryptohub.goit.ua/</a>
+							<span class="dotes">...............</span>
+							<span>
+								<strong>[</strong>
+								<span class="tech_name">JavaScript</span>
+								<strong>]</strong>
+							</span>
+						</li>
+						<li class="projects_list_item">
+							<a class="pojects_link" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
+							<span class="dotes">...............</span>
+							<span>
+								<strong>[</strong>
+								<span class="tech_name">React.js, Node.js</span>
+								<strong>]</strong>
+							</span>
+						</li>
+					</ol>
+				</div>
+
+				<div>
+					<h2 class="about_me_title">Work Experience</h2>
+
+					<!-- company 1-->
+					<div>
+						<h4 class="company_title">
+							Front-End Developer
+							<span class="company_name">TMX</span>
+						</h4>
+						<span class="period">
+							March 2017 - up to now
+							<span class="prof_div">|</span>
+							Ukraine
+						</span>
+						<ul class="prof_duties">
+							<li class="company1_list_item">Front-end</li>
+							<li class="company1_list_item">Articulate Storyline(3,360), Lectora, Articulate Rise</li>
+							<li class="company1_list_item">Audio engineer(Audio editor)</li>
+							<li class="company1_list_item">Adapt.js</li>
+							<li class="company1_list_item">Grunt</li>
+						</ul>
+						<p class="prof_duties_comment">
+							ООО «Техноматика» верстальщик, разработчик курсов, электронных систем обучения. Аудио-инженер,
+							редактирование озвучки. Articulate Storyline(3,360), Lectora, Articulate Rise. Adapt.js
+						</p>
+					</div>
+
+					<!-- company 2-->
+					<div>
+						<h4 class="company_title">
+							Front-End Developer
+							<span class="company_name">Paradigm Consulting Group</span>
+						</h4>
+						<span class="period">
+							June 2016 - March 2017
+							<span class="prof_div">|</span>
+							Ukraine
+						</span>
+						<ul class="prof_duties">
+							<li class="company2_list_item">
+								Html, css code for projects
+								<a href="https://www.childbrand.ua/">ChildBrand.ua</a>
+							</li>
+							<li class="company2_list_item">bootstrap, jQuery</li>
+							<li class="company2_list_item">layout of email newsletters</li>
+						</ul>
+						<p class="prof_duties_comment">
+							Верстальщик в Paradigm Group. Верстка страниц для сайтов Vippy.ua ChildBrand.ua . Задачи: верстка страниц
+							(html/css, bootstrap), подключение и настройка плагинов (bootstarp, jQuery), верстка email-рассылок(html).
+						</p>
+					</div>
+
+					<!-- company 3-->
+					<div>
+						<h4 class="company_title">
+							Front-End
+							<span class="company_name">Freelacne</span>
+						</h4>
+						<span class="period">
+							January 2016 - March 2016
+							<span class="prof_div">|</span>
+							Ukraine
+						</span>
+						<ul class="prof_duties">
+							<li class="company3_list_item">Html and css</li>
+						</ul>
+						<p class="prof_duties_comment">
+							Фрилансер на сайтах upwork.com и freelance.ua Доработка и правка html и css документов
+						</p>
+					</div>
+
+					<!-- company 4-->
+					<div>
+						<h4 class="company_title">
+							Front-End
+							<span class="company_name">Tensor</span>
+						</h4>
+						<span class="period">
+							July 2014 - November 2015
+							<span class="prof_div">|</span>
+							Ukraine
+						</span>
+						<ul class="prof_duties">
+							<li class="company4_list_item">Markup(xhtml, css, js)</li>
+							<li class="company4_list_item">Xml, Xslt</li>
+						</ul>
+						<p class="prof_duties_comment">
+							ООО Тензор (Электронная отчетность), киевский филиал. Разработка форм электронной отчетности для проекта
+							Украина, и форм отёчности для проекта ФСРАР (Федеральная служба РосАлкогольРегулирования) Задачи: создание
+							верстки (Xhtml, css,js), редактирование форматов этих форм и создание форм для печати (xml,xslt).
+						</p>
+					</div>
+
+					<!-- company 5-->
+					<div>
+						<h4 class="company_title">
+							Front-End
+							<span class="company_name">Web-studio Dubl</span>
+						</h4>
+						<span class="period">
+							February 2014 - March 2014
+							<span class="prof_div">|</span>
+							Ukraine
+						</span>
+						<ul class="prof_duties">
+							<li class="company5_list_item">html/css coder</li>
+							<li class="company5_list_item">Js, jQuery</li>
+							<li class="company5_list_item">
+								<a href="http://artiluzion.com/">Artilluzion</a>
+								,holiday management company
+							</li>
+							<li class="company5_list_item">
+								<a href="http://rishennyae.com/">Решение Есть</a>
+								, legal and accounting services in Donetsk
+							</li>
+						</ul>
+						<p class="prof_duties_comment">
+							Web-studio Dubl, г. Донецк. Html/Css верстальщик. Создание клиентской части страниц. Верстка на html css,
+							добавление библиотек java script и jQuery. Примеры проектов, в которых я участвовал, работая в команде:
+							<a href="http://artiluzion.com/">Artilluzion</a>
+							, holiday management company;
+							<a href="http://rishennyae.com/">Решение Есть</a>
+							, legal and accounting services in Donetsk
+						</p>
+					</div>
+
+					<!-- Education-->
+					<div class="education_block">
+						<h3 class="education_title">Education</h3>
+						<h4 class="university_name">Donetsk National Technology University</h4>
+						<h4 class="specialization">Computer systems and networks | Specialist</h4>
+						<span class="study_period">
+							Septermber 2008 - June 2013
+							<span class="prof_div">|</span>
+							Ukraine
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
