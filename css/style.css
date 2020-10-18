@@ -114,24 +114,12 @@ a {
 .about_me_title {
 	margin-bottom: 10px;
 }
-.pojects_link {
-	color: #595959;
-	font-weight: 400;
-}
+
 .tech_name {
 	color: #595959;
 	font-weight: 400;
 }
-.projects_list_item {
-	font-weight: 700;
-}
-.dotes {
-	color: #bebebe;
-	font-weight: 200;
-}
-.projects_container {
-	margin-bottom: 55px;
-}
+
 .company_title {
 	margin-top: 10px;
 	margin-bottom: 15px;
@@ -151,7 +139,6 @@ a {
 .prof_duties {
 	margin-top: 14px;
 }
-.projects_list_item,
 .company1_list_item,
 .company2_list_item,
 .company3_list_item,
